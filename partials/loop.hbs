@@ -23,12 +23,12 @@
 									<h2><a href="{{url}}" alt="{{{title}}}" title="{{{title}}}">{{{title}}}</a></h2>
 								</div>
 								<div class="meta-info">
-									{{#author}}
+									{{#foreach author}}
 									<span class="author">
 										<i class="fa fa-user"></i>
 										<a href="{{url}}">{{name}}</a>
 									</span>
-									{{/author}}
+									{{/foreach}}
 									<span class="date">
 										<i class="fa fa-clock-o"></i>
 										{{date format="MMM DD, YYYY"}}
@@ -59,12 +59,12 @@
 										<p>{{excerpt characters="120"}}&hellip;</p>
 									</div>
 									<div class="meta-info">
-										{{#author}}
+										{{#foreach author}}
 										<span class="author">
 											<i class="fa fa-user"></i>
 											<a href="{{url}}" title="{{name}}" alt="{{name}}">{{name}}</a>
 										</span>
-										{{/author}}
+										{{/foreach}}
 										<span class="date">
 											<i class="fa fa-clock-o"></i>
 											{{date format="MMM DD, YYYY"}}

@@ -1,4 +1,7 @@
 {
-	"name" : "Chopstick",
-	"version": "1.1.0"
+	"name" : "chopstick",
+	"version": "1.1.1",
+    "author": {"email": "rovecat@gmail.com"},
+    "keywords": ["ghost-theme"],
+    "config": {"posts_per_page": 5}
 }

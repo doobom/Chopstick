@@ -1,5 +1,5 @@
 {{! author profile }}
-{{#author}}
+{{#foreach author}}
 <section class="cp-author">
 	<div class="row">
 		<div class="col-md-12 author-img" {{#if cover_image}} style="background-image: url({{cover_image}});" {{/if}}>
@@ -31,4 +31,4 @@
 		</div>
 	</div>
 </section>
-{{/author}}
+{{/foreach}}

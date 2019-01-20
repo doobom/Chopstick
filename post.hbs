@@ -8,12 +8,12 @@
 					<header class="post-header">
 						<h2>{{{title}}}</h2>
 						<div class="meta-info">
-							{{#author}}
+							{{#foreach author}}
 							<span class="author">
 								<i class="fa fa-user"></i>
 								<a href="{{url}}">{{name}}</a>
 							</span>
-							{{/author}}
+							{{/foreach}}
 							<span class="date">
 								<i class="fa fa-clock-o"></i>
 								{{date format="MMM DD, YYYY"}}
